@@ -7,7 +7,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'build'),
     filename: 'main.js',
-    publicPath: 'auto',
+    publicPath: '/my-app/',
   },
   mode: 'development',
   devtool: 'inline-source-map',
