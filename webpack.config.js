@@ -43,7 +43,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: './public/index.html',
-      publicPath: '/',                 // ensures <%= htmlWebpackPlugin.options.publicPath %>
+      publicPath: '/expense-tracker/',                 // ensures <%= htmlWebpackPlugin.options.publicPath %>
       favicon: './public/favicon.ico', // easiest: injects correct <link rel="icon">
     }),
     new webpack.HotModuleReplacementPlugin(),
