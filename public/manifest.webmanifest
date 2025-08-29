@@ -2,31 +2,31 @@
   "name": "Expense Tracker",
   "short_name": "Expenses",
   "description": "Track and visualize your daily spending offline.",
-  "start_url": "/expense-tracker/",
-  "scope": "/expense-tracker/",
+  "start_url": "/my-app/",
+  "scope": "/my-app/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#ffffff",
   "theme_color": "#1976d2",
   "icons": [
     {
-      "src": "/expense-tracker/icons/icon-192.png",
+      "src": "/my-app/icons/icon-192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/expense-tracker/icons/icon-512.png",
+      "src": "/my-app/icons/icon-512.png",
       "sizes": "512x512",
       "type": "image/png"
     },
     {
-      "src": "/expense-tracker/icons/maskable-192.png",
+      "src": "/my-app/icons/maskable-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "/expense-tracker/icons/maskable-512.png",
+      "src": "/my-app/icons/maskable-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
