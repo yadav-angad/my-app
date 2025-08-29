@@ -44,6 +44,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './public/index.html',
       publicPath: '/my-app/',                 // ensures <%= htmlWebpackPlugin.options.publicPath %>
+      manifest: './public/manifest.webmanifest',
       favicon: './public/favicon.ico', // easiest: injects correct <link rel="icon">
     }),
     new webpack.HotModuleReplacementPlugin(),
